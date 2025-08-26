@@ -12,13 +12,13 @@ This application implements secure API key handling with multiple configuration 
 Create `.streamlit/secrets.toml` (see `.streamlit/secrets.toml.example` for template):
 ```toml
 [api_keys]
-openai = "sk-your-actual-api-key-here"
+openai = "your-openai-api-key-here"
 ```
 
 ### 2. **Environment Variable**
 Set the `OPENAI_API_KEY` environment variable:
 ```bash
-export OPENAI_API_KEY="sk-your-actual-api-key-here"
+export OPENAI_API_KEY="your-openai-api-key-here"
 ```
 
 ### 3. **Manual Input**
